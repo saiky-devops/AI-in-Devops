@@ -20,3 +20,8 @@ You may have already heard about using AI tools to generate scripts, manifest fi
     * Discover recurring issues in deployment pipelines
     * Optimize resource allocation based on usage patterns
     * Identify gaps in existing processes and suggest improvements
+
+# AI Tools that Devops can use:
+
+* Github Copilot/Amazon Q
+* ChatGPT, Claude
