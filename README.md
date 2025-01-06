@@ -23,7 +23,7 @@ You may have already heard about using AI tools to generate scripts, manifest fi
 
 # AI Tools that Devops can use:
 
-**Github Copilot/Amazon Q** : 
+**Github Copilot/Amazon Q** 
 
   * For Amazon Q: Sign up for an AWS account and install the Amazon Q plugin in your preferred IDE
   * For GitHub Copilot: Create a GitHub account and install the Copilot extension in your IDE
@@ -38,13 +38,19 @@ These AI assistants can significantly boost your DevOps productivity by helping 
 
 Note: While both services offer free tiers, be sure to review their current pricing and limitations before getting started. GitHub Copilot is free for students and maintainers of popular open-source projects, while Amazon Q offers certain features in its free tier.
 
-**ChatGPT, Claude, Gemini**: 
+**ChatGPT, Claude, Gemini** 
 
 * You can create a free account with these, (feature limitations)
 * These can be used as your Problem-Solving Companions that provides assistance in debugging an issue, Understand error messages and get actionable solutions.
 * Get guidance on performance optimization
 * Receive infrastructure scaling recommendations
 * Get explanations of complex concepts & Compare different tools and approaches
+
+**DevOps SaaS tools are integrating AI features**
+
+* Monitoring & Observability: Datadog (AI-powered log analysis), New Relic (Anomaly detection & Incident prediction), Dynatrace (Automatic problem detection)
+* Security Tools: Snyk(AI-powered vulnerability detection)
+* Infrastructure Management: HashiCorp (Configuration optimization, Security compliance checking) AWS DevOps Tools
 
 # Useful blogs for Devops
 
