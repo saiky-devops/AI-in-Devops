@@ -46,7 +46,7 @@ Note: While both services offer free tiers, be sure to review their current pric
 * Receive infrastructure scaling recommendations
 * Get explanations of complex concepts & Compare different tools and approaches
 
-# Some helpful blogs
+# Useful blogs for Devops
 
 * This page here provides better understanding of an AI model and different types of models and their uses. (Refer them)
      https://www.geeksforgeeks.org/common-ai-models-and-when-to-use-them/
