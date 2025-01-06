@@ -23,5 +23,12 @@ You may have already heard about using AI tools to generate scripts, manifest fi
 
 # AI Tools that Devops can use:
 
-* Github Copilot/Amazon Q
-* ChatGPT, Claude
+* Github Copilot/Amazon Q : 
+* ChatGPT, Claude  :
+
+
+#  This page here provides better understanding of an AI model and different types of models and their uses. (Refer them)
+https://www.geeksforgeeks.org/common-ai-models-and-when-to-use-them/
+
+# Sample prompts to use in Devops.
+https://gartdevops.medium.com/10-chatgpt-prompts-to-use-in-devops-dddc0d599ec8
