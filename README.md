@@ -52,6 +52,48 @@ Note: While both services offer free tiers, be sure to review their current pric
 * Security Tools: Snyk(AI-powered vulnerability detection)
 * Infrastructure Management: HashiCorp (Configuration optimization, Security compliance checking) AWS DevOps Tools
 
+# Sample demonstration :
+
+I want to demonstrate a simple use case by parsing an Nginx log file and extracting the following metrics by running log_analyzer.py with nginx.log
+
+* **Traffic Patterns**: Group logs by time intervals (e.g., hourly, daily) to analyze traffic volume.
+* **Traffic Anomalies**: Identify anomalies in traffic patterns.
+* **Traffic Forecasting**: Forecast future traffic based on historical data.
+
+ **I am using below open source Machine learning models in my script for Anomaly detection & Forecasting**
+
+# IsolationForest:  
+* Type: Machine Learning Model
+* Library: sklearn.ensemble
+* Purpose: Anomaly Detection
+* Description: Isolation Forest is an unsupervised learning algorithm used for anomaly detection. It works by isolating observations by randomly selecting a feature and then randomly selecting a split value between the maximum and minimum values of the selected feature. The logic is that anomalies are few and different, and they are easier to isolate. It is an open-source model provided by the scikit-learn library.
+
+# Prophet:
+* Type: Machine Learning Model
+* Library: prophet
+* Learning Type: Supervised Learning
+* Purpose: Time Series Forecasting
+* Description: Prophet is a forecasting tool developed by Facebook (Meta) for time series data. It is designed to handle missing data and shifts in the trend, and it works well with daily observations that display seasonality. It is an open-source model and is particularly useful for forecasting traffic, sales, and other time-dependent data. Prophet is a supervised learning model because it uses historical data to predict future values.
+
+**Here are the metrics after running the script**
+
+
+<img width="596" alt="image" src="https://github.com/user-attachments/assets/a05c47e3-a6f6-43c7-904b-09878cb7886c" />
+
+                     **Above picture shows traffic trends**
+
+<img width="604" alt="image" src="https://github.com/user-attachments/assets/bdf9de41-2a8b-41d9-9a53-031cb8264e11" />
+
+                     **Above picture shows anamalies in traffic**
+
+<img width="981" alt="image" src="https://github.com/user-attachments/assets/ebf13aa9-37af-46c8-988c-7bee64f68565" />
+
+                     **Above picture shows forecast traffic**
+
+
+**Note: In this demonstration, I utilized open-source machine learning models to analyze historical data, detect anomalies, and make forecasts. Implementing such models effectively requires a comprehensive setup and thorough training to achieve real-time metrics and improved accuracy.**
+
+
 # Useful blogs for Devops
 
 * This page here provides better understanding of an AI model and different types of models and their uses. (Refer them)
