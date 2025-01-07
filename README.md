@@ -80,15 +80,15 @@ I want to demonstrate a simple use case by parsing an Nginx log file and extract
 
 <img width="596" alt="image" src="https://github.com/user-attachments/assets/a05c47e3-a6f6-43c7-904b-09878cb7886c" />
 
-                     **Above picture shows traffic trends**
+                     **Picture shows traffic trend**
 
 <img width="604" alt="image" src="https://github.com/user-attachments/assets/bdf9de41-2a8b-41d9-9a53-031cb8264e11" />
 
-                     **Above picture shows anamalies in traffic**
+                     **Picture shows anomalies in traffic**
 
 <img width="981" alt="image" src="https://github.com/user-attachments/assets/ebf13aa9-37af-46c8-988c-7bee64f68565" />
 
-                     **Above picture shows forecast traffic**
+                     **Picture shows forecast traffic**
 
 
 **Note: In this demonstration, I utilized open-source machine learning models to analyze historical data, detect anomalies, and make forecasts. Implementing such models effectively requires a comprehensive setup and thorough training to achieve real-time metrics and improved accuracy.**
