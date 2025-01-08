@@ -21,7 +21,7 @@ You may have already heard about using AI tools to generate scripts, manifest fi
     * Optimize resource allocation based on usage patterns
     * Identify gaps in existing processes and suggest improvements
 
-# AI Tools that Devops can use:
+# AI Powered Tools that Devops can use:
 
 **Github Copilot/Amazon Q** 
 
@@ -48,13 +48,13 @@ Note: While both services offer free tiers, be sure to review their current pric
 
 **DevOps SaaS tools are integrating AI features**
 
-* Monitoring & Observability: Datadog (AI-powered log analysis), New Relic (Anomaly detection & Incident prediction), Dynatrace (Automatic problem detection)
-* Security Tools: Snyk(AI-powered vulnerability detection)
-* Infrastructure Management: HashiCorp (Configuration optimization, Security compliance checking) AWS DevOps Tools
+* Monitoring & Observability: **Datadog** (AI-powered log analysis), **New Relic** (Anomaly detection & Incident prediction), **Dynatrace** (Automatic problem detection)
+* Security Tools: **Snyk**(AI-powered vulnerability detection)
+* Infrastructure Management: **HashiCorp** (Configuration optimization, Security compliance checking) **AWS DevOps Tools**
 
 # Sample demonstration :
 
-I want to demonstrate a simple use case by parsing an Nginx log file and extracting the following metrics by running log_analyzer.py with nginx.log
+Let me demonstrate a simple use case by parsing an Nginx log file and extracting the following metrics by running log_analyzer.py with nginx.log
 
 * **Traffic Patterns**: Group logs by time intervals (e.g., hourly, daily) to analyze traffic volume.
 * **Traffic Anomalies**: Identify anomalies in traffic patterns.
@@ -94,10 +94,13 @@ I want to demonstrate a simple use case by parsing an Nginx log file and extract
 **Note: In this demonstration, I utilized open-source machine learning models to analyze historical data, detect anomalies, and make forecasts. Implementing such models effectively requires a comprehensive setup and thorough training to achieve real-time metrics and improved accuracy.**
 
 
-# Useful blogs for Devops
+# Useful blogs for Devops and other references:
 
-* This page here provides better understanding of an AI model and different types of models and their uses. (Refer them)
+* This page here provides better understanding of an AI model and different types of models and their uses.
      https://www.geeksforgeeks.org/common-ai-models-and-when-to-use-them/
 
 * Sample prompts to use in Devops.
      https://gartdevops.medium.com/10-chatgpt-prompts-to-use-in-devops-dddc0d599ec8
+
+* Role of AI in devops by Gitlab
+    https://about.gitlab.com/topics/devops/the-role-of-ai-in-devops/ 
