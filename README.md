@@ -78,15 +78,15 @@ Let me demonstrate a simple use case by parsing an Nginx log file and extracting
 **Here are the metrics after running the script**
 
 
-<img width="596" alt="image" src="https://github.com/user-attachments/assets/a05c47e3-a6f6-43c7-904b-09878cb7886c" />
+<img width="606" alt="image" src="https://github.com/user-attachments/assets/4248b185-4ba7-4fc0-96af-73a6178dc320" />
 
                      **Picture shows traffic trend**
 
-<img width="604" alt="image" src="https://github.com/user-attachments/assets/bdf9de41-2a8b-41d9-9a53-031cb8264e11" />
+<img width="579" alt="image" src="https://github.com/user-attachments/assets/41e164cb-2d0e-4d80-bf2f-734cffb23c7f" />
 
                      **Picture shows anomalies in traffic**
 
-<img width="981" alt="image" src="https://github.com/user-attachments/assets/ebf13aa9-37af-46c8-988c-7bee64f68565" />
+<img width="979" alt="image" src="https://github.com/user-attachments/assets/5c3220c3-0abe-47d0-848d-ad8486a6003f" />
 
                      **Picture shows forecast traffic**
 
