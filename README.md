@@ -5,7 +5,7 @@ What is AI in Devops?
 AI is growing rapidly in all software streams, I would like to focus on leveraging GenAI in to devops (let's explore this thoroughly).
 AI in DevOps is an added benefit that enhances and empowers DevOps engineers to become more efficient. Here are some things you can do to leverage AI in DevOps.
 
-You may have already heard about using AI tools to generate scripts, manifest files, Jenkins files, and other DevOps artifacts. However, here are some more valuable ways to leverage these tools:
+You may have already heard about using AI tools to generate scripts, manifest files, Jenkins files, and other DevOps artifacts. However, here are some more valuable ways to leverage these tools but not limited:
 
 * Proactive analysis:
     * Monitor system metrics and logs to predict potential issues before they become critical
@@ -46,7 +46,7 @@ Note: While both services offer free tiers, be sure to review their current pric
 * Receive infrastructure scaling recommendations
 * Get explanations of complex concepts & Compare different tools and approaches
 
-**DevOps SaaS tools are integrating AI features**
+**DevOps SaaS tools are AI integrated**
 
 * Monitoring & Observability: **Datadog** (AI-powered log analysis), **New Relic** (Anomaly detection & Incident prediction), **Dynatrace** (Automatic problem detection)
 * Security Tools: **Snyk**(AI-powered vulnerability detection)
