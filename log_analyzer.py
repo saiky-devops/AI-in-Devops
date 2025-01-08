@@ -1,6 +1,7 @@
 import re
 import pandas as pd
 import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
 from sklearn.ensemble import IsolationForest
 from prophet import Prophet
 
@@ -25,25 +26,31 @@ def detect_anomalies(df):
     return df[df['anomaly'] == -1]
 
 def forecast_traffic(df):
-    traffic = df.resample('H', on='datetime')['size'].sum().reset_index().rename(columns={'datetime': 'ds', 'size': 'y'})
+    traffic = df.resample('h', on='datetime')['size'].sum().reset_index().rename(columns={'datetime': 'ds', 'size': 'y'})
     traffic['ds'] = traffic['ds'].dt.tz_localize(None)
     model = Prophet()
     model.fit(traffic)
     future = model.make_future_dataframe(periods=24, freq='H')
     return model.predict(future), model
 
+
 def visualize_results(traffic_by_hour, anomalies, forecast, model):
     traffic_by_hour.plot(kind='bar', title="Hourly Traffic Trend", xlabel="Hour", ylabel="Requests")
     plt.show()
-    model.plot(forecast, xlabel="Time", ylabel="Traffic")
+
+    model.plot(forecast, xlabel="Time", ylabel="Forecast Traffic")
     plt.show()
+
     if not anomalies.empty:
         plt.scatter(anomalies['datetime'], anomalies['traffic_score'], color='red', label='Anomalies')
+        plt.gca().xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d %H:%M:%S'))
+        plt.gca().xaxis.set_major_locator(mdates.HourLocator(interval=1))
+        plt.gcf().autofmt_xdate()
         plt.legend()
         plt.show()
 
 def main():
-    log_file = "nginx.log"
+    log_file = "nginx_logs.log"
     log_pattern = r'(?P<ip>\d+\.\d+\.\d+\.\d+) - - \[(?P<datetime>.+?)\] "(?P<method>\w+) (?P<url>.+?) HTTP/\d\.\d" (?P<status>\d+) (?P<size>\d+)'
     df = parse_logs(log_file, log_pattern)
     if df.empty:
